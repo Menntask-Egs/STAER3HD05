@@ -1,0 +1,10 @@
+{
+  "export_date": "2026-11-05",
+  "course": "STÆR3HD05",
+  "source_commit": "b6ff99d4cb5716ef608ea814fd1fdbe40e77eb3c",
+  "source_version": 44,
+  "pages": 16,
+  "publication_enabled_by_default": false,
+  "runtime_external_dependency": "MathJax 3 via jsDelivr",
+  "notes": "Source snapshot with portable build and GitHub Pages workflow; no source Git history or hosting credentials."
+}

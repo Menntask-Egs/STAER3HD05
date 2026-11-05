@@ -1,0 +1,11 @@
+<div class="cone-lab" id="cone-lab">
+<h2>Frá þríhyrningi að keilu</h2>
+<p>Snúðu skyggða svæðinu um x-ás. Lóðrétta sneiðin við valið x-gildi myndar hluta úr skífu og heila skífu þegar snúningurinn nær 360°.</p>
+<div class="cone-views">
+<figure><h3>Svæðið í tvívídd</h3><svg id="cone-plane" viewBox="0 0 340 340" role="img" aria-label="Svæðið undir y=x á bilinu 0 til 2 og valin lóðrétt sneið."></svg></figure>
+<figure><h3>Snúningurinn í þrívídd</h3><canvas id="cone-space" role="img" aria-label="Keila að myndast við snúning svæðis um x-ás.">Þrívíddarmynd af keilu með hæð 2 og grunngeisla 2.</canvas></figure>
+</div>
+<div class="cone-controls"><label for="cone-slice">Staðsetning sneiðar: <output id="cone-slice-value">x = 1</output></label><input id="cone-slice" type="range" min="0" max="2" step="0.05" value="1"><label for="cone-angle">Snúningur svæðisins: <output id="cone-angle-value">0°</output></label><input id="cone-angle" type="range" min="0" max="360" step="1" value="0"><div class="cone-buttons"><button id="cone-play" type="button">Spila snúning</button><button id="cone-reset" type="button">Byrja upp á nýtt</button></div><label class="cone-check"><input id="cone-show" type="checkbox" checked> Sýna sneið og geisla</label><details><summary>Sjónarhorn</summary><label for="cone-yaw">Snúa sjónarhorni</label><input id="cone-yaw" type="range" min="-160" max="160" value="-35"><label for="cone-pitch">Horfa ofan frá</label><input id="cone-pitch" type="range" min="10" max="75" value="25"><button id="cone-view-reset" type="button">Endurstilla sjónarhorn</button></details></div>
+<div class="formula"><p><strong>Frá sneið að heildi</strong></p>\[R(x)=x.\]\[A(x)=\pi x^2.\]<p id="cone-readout" aria-live="polite"></p><p id="cone-progress"></p>\[V=\int_0^2 A(x)\,dx=\pi\int_0^2x^2\,dx=\frac{8\pi}{3}.\]<p>Heildið leggur saman allar skífurnar eftir x-ásnum. Flatarmálið πx² er þversniðsflatarmál fulla snúðsins; meðan snúningurinn er ólokinn sést aðeins geiri úr hverri skífu.</p></div>
+<p>Hvernig breytist skífan þegar sneiðin færist frá oddi keilunnar að grunninum?</p>
+</div>

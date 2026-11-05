@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="is" xml:lang="is">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>STÆR3HD05 — flutningur á GitHub</title>
+  <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#202d31;background:#f6f5f0}body{max-width:960px;margin:0 auto;padding:36px 26px 70px;line-height:1.7;font-size:16px}h1,h2,h3{line-height:1.25}h1{font-size:34px;margin-top:44px}h2{font-size:25px;margin-top:40px;padding-top:14px;border-top:1px solid #cbd6ce}h3{font-size:20px;margin-top:30px}a{color:#175a4d;text-underline-offset:3px}header{padding:10px 0 24px;border-bottom:3px solid #175a4d}header h1{margin-top:0}nav#TOC{padding:20px 24px;background:#fff;border:1px solid #cbd6ce;border-radius:10px;margin:28px 0}nav#TOC ul{padding-left:22px}li{margin:7px 0}table{border-collapse:collapse;width:100%;margin:22px 0;font-size:14px}th,td{padding:12px;border:1px solid #cbd6ce;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#e8eee8}pre{padding:18px;background:#fff;border:1px solid #cbd6ce;overflow-x:auto}code{font-size:.9em;overflow-wrap:anywhere}p,li{max-width:85ch}@media(max-width:600px){body{padding:20px 16px}h1{font-size:28px}h2{font-size:22px}table{display:block;overflow-x:auto}nav#TOC{padding:14px}}@media print{body{max-width:none;padding:0;font-size:10pt}h1,h2,h3{break-after:avoid}pre,table{break-inside:avoid}nav#TOC{font-size:9pt}a{color:#000}}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">STÆR3HD05 — flutningur á GitHub</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#flutningur-stær3hd05-á-github" id="toc-flutningur-stær3hd05-á-github">Flutningur STÆR3HD05 á GitHub</a>
+<ul>
+<li><a href="#hvað-þú-þarft" id="toc-hvað-þú-þarft">1. Hvað þú
+þarft</a></li>
+<li><a href="#ákveða-geymslu-og-sýnileika" id="toc-ákveða-geymslu-og-sýnileika">2. Ákveða geymslu og
+sýnileika</a></li>
+<li><a href="#stofna-geymslu-skólans" id="toc-stofna-geymslu-skólans">3.
+Stofna geymslu skólans</a></li>
+<li><a href="#flytja-skrárnar-inn-með-github-desktop" id="toc-flytja-skrárnar-inn-með-github-desktop">4. Flytja skrárnar inn
+með GitHub Desktop</a></li>
+<li><a href="#fyrsta-bygging-engin-birting-enn" id="toc-fyrsta-bygging-engin-birting-enn">5. Fyrsta bygging — engin
+birting enn</a></li>
+<li><a href="#virkja-github-pages-þegar-þú-vilt-birta" id="toc-virkja-github-pages-þegar-þú-vilt-birta">6. Virkja GitHub Pages
+þegar þú vilt birta</a></li>
+<li><a href="#prófa-áður-en-nýja-slóðin-verður-aðalslóð" id="toc-prófa-áður-en-nýja-slóðin-verður-aðalslóð">7. Prófa áður en nýja
+slóðin verður aðalslóð</a></li>
+<li><a href="#breyta-eftir-flutning" id="toc-breyta-eftir-flutning">8.
+Breyta eftir flutning</a></li>
+<li><a href="#ef-þú-vilt-bakka" id="toc-ef-þú-vilt-bakka">9. Ef þú vilt
+bakka</a></li>
+<li><a href="#algengar-hnökrar" id="toc-algengar-hnökrar">10. Algengar
+hnökrar</a></li>
+<li><a href="#stutt-yfirlit-yfir-það-sem-þú-gerir" id="toc-stutt-yfirlit-yfir-það-sem-þú-gerir">Stutt yfirlit yfir það sem
+þú gerir</a></li>
+<li><a href="#opinberar-heimildir" id="toc-opinberar-heimildir">Opinberar heimildir</a></li>
+</ul></li>
+<li><a href="#efniskort" id="toc-efniskort">Efniskort og ritstjórn</a>
+<ul>
+<li><a href="#mikilvægasta-aðgreiningin" id="toc-mikilvægasta-aðgreiningin">Mikilvægasta aðgreiningin</a></li>
+<li><a href="#hvar-er-efnið" id="toc-hvar-er-efnið">Hvar er
+efnið?</a></li>
+<li><a href="#hvers-vegna-samsvara-skráarnöfnin-ekki-alltaf-kaflanúmerunum" id="toc-hvers-vegna-samsvara-skráarnöfnin-ekki-alltaf-kaflanúmerunum">Hvers
+vegna samsvara skráarnöfnin ekki alltaf kaflanúmerunum?</a></li>
+<li><a href="#örugg-byrjun-á-orðalagsbreytingu" id="toc-örugg-byrjun-á-orðalagsbreytingu">Örugg byrjun á
+orðalagsbreytingu</a></li>
+</ul></li>
+<li><a href="#athugasemdir-vid-yfirlestur" id="toc-athugasemdir-vid-yfirlestur">Athugasemdir við
+yfirlestur</a></li>
+</ul>
+</nav>
+<h1 id="flutningur-stær3hd05-á-github">Flutningur STÆR3HD05 á
+GitHub</h1>
+<p>Leiðbeiningar útbúnar 5. nóvember 2026. Pakkinn er tilbúinn til
+innflutnings, en hefur <strong>ekki</strong> verið settur á GitHub
+reikning skólans og engin ný vefsíða hefur verið birt.</p>
+<h2 id="hvað-þú-þarft">1. Hvað þú þarft</h2>
+<ul>
+<li>Aðgang að GitHub reikningi skólans eða heimild til að stofna geymslu
+í GitHub-stofnun skólans.</li>
+<li>Réttindi til að breyta geymslunni og stilla GitHub Pages. Ef þú sérð
+ekki Settings þarf stjórnandi að aðstoða.</li>
+<li>ZIP-pakkann, afþjappaðan á tölvuna.</li>
+<li>GitHub Desktop, ef þú fylgir aðalleiðinni hér að neðan:
+https://desktop.github.com/ . Innskráning fer fram í forritinu/vafra;
+ekki setja lykilorð eða aðgangstákn í skrár bókarinnar.</li>
+</ul>
+<p>Þú þarft <strong>ekki</strong> að kunna skipanalínu eða setja Python
+upp á tölvunni til að nýta sjálfvirku bygginguna á GitHub.</p>
+<h2 id="ákveða-geymslu-og-sýnileika">2. Ákveða geymslu og sýnileika</h2>
+<p>Tillaga að heiti geymslu: <strong>staer3hd05</strong>. Veldu
+reikning/stofnun skólans sem <strong>Owner</strong>. Ekki nefna
+geymsluna <code>&lt;reikningur&gt;.github.io</code> nema hún eigi að
+vera aðalvefsíða alls reikningsins; þessi pakki er hugsaður sem
+verkefnasíða sem má hafa við hlið annarra bóka.</p>
+<p><strong>Byrjaðu með Private meðan þú ert að flytja inn og
+yfirfara.</strong> Birting er óvirk í vinnuflæðinu þar til hún er
+sérstaklega virkjuð.</p>
+<p>Geymslan og vefsíðan eru tveir ólíkir hlutir:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Val</th>
+<th>Hvað það þýðir</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Private repository</td>
+<td>Frumskrár sjá aðeins þeir sem fá aðgang. Bókin getur verið geymd og
+athuganir keyrðar án þess að vefsíðan sé birt.</td>
+</tr>
+<tr class="even">
+<td>Public repository</td>
+<td>Frumskrárnar eru opinberar. Þetta er leiðin sem GitHub Free styður
+fyrir Pages.</td>
+</tr>
+<tr class="odd">
+<td>GitHub Pages</td>
+<td>Birtir útbúna vefsíðu. Einkageymsla tryggir ekki að Pages-vefurinn
+sé einkavefur. Einkabirting með aðgangsstýringu er sérstakur Enterprise
+Cloud-eiginleiki.</td>
+</tr>
+</tbody>
+</table>
+<p>Á GitHub Free er Pages fyrir opinberar geymslur; önnur áskrift getur
+heimilað Pages úr einkageymslu. Ef skólinn vill lokaðan aðgang að
+bókinni skaltu geyma frumskrárnar einkalegar og bíða með Pages þar til
+hýsingarleið hefur verið valin. <strong>Ekki gera geymsluna opinbera
+eingöngu til að komast framhjá stillingavillu.</strong></p>
+<p>Þú getur lokið skrefum 3–5 og haldið yfirlestri áfram áður en þú
+ákveður opinbera birtingu.</p>
+<h2 id="stofna-geymslu-skólans">3. Stofna geymslu skólans</h2>
+<ol type="1">
+<li>Skráðu þig inn á GitHub og veldu <strong>New
+repository</strong>.</li>
+<li>Veldu réttan <strong>Owner</strong>: reikning eða stofnun
+skólans.</li>
+<li>Skrifaðu <code>staer3hd05</code> í <strong>Repository
+name</strong>.</li>
+<li>Veldu <strong>Private</strong> fyrir fyrstu uppsetningu.</li>
+<li>Kveiktu á <strong>Add README</strong> svo geymslan hafi
+upphafscommit og <code>main</code>-grein.</li>
+<li>Ekki bæta við sjálfvirku leyfi eða .gitignore hér; pakkinn hefur
+eigin .gitignore og ekki hefur verið ákveðið opið leyfi.</li>
+<li>Veldu <strong>Create repository</strong>.</li>
+</ol>
+<p>Þessi leið gerir ráð fyrir nýrri geymslu. Ef geymsla með þessu heiti
+er þegar til og hefur efni skaltu ekki yfirskrifa hana; notaðu annað
+heiti eða fáðu aðstoð við að sameina efnið.</p>
+<h2 id="flytja-skrárnar-inn-með-github-desktop">4. Flytja skrárnar inn
+með GitHub Desktop</h2>
+<ol type="1">
+<li>Opnaðu GitHub Desktop og skráðu þig inn með reikningi sem hefur
+aðgang að geymslu skólans.</li>
+<li>Veldu <strong>File → Clone repository</strong>. Finndu nýju
+geymsluna; ef hún sést ekki má nota <strong>URL</strong>-flipann og líma
+geymsluslóðina frá GitHub.</li>
+<li>Veldu stað á tölvunni og smelltu á <strong>Clone</strong>.</li>
+<li>Veldu <strong>Repository → Show in Explorer</strong> (á macOS:
+<strong>Show in Finder</strong>).</li>
+<li>Opnaðu afþjappaða flutningspakkann. Þar er mappan
+<code>staer3hd05</code> með <code>README.md</code>,
+<code>build_site.py</code>, <code>assets</code>, <code>docs</code> og
+fleiri skrám.</li>
+<li>Afritaðu <strong>innihald</strong> þeirrar möppu í möppuna sem
+GitHub Desktop bjó til. Ekki afrita ytri möppuna sem eina undirmöppu.
+Samþykkja má að skipta út upphafs-README sem þú stofnaðir í skrefi
+3.</li>
+<li>Gættu þess að <strong><code>.github</code> mappan fylgi</strong>,
+ásamt <code>.gitignore</code> og <code>.gitattributes</code>. Á Windows
+má kveikja á <strong>View → Show → Hidden items</strong>; á macOS má
+nota <strong>Cmd+Shift+.</strong> til að sjá punktaskrár. Ekki hreyfa
+<code>.git</code> möppuna sem GitHub Desktop bjó til.</li>
+<li>Farðu aftur í GitHub Desktop. Í <strong>Changes</strong> ættu að
+sjást frumskrár, myndir, leiðbeiningar og
+<code>.github/workflows/pages.yml</code>.</li>
+<li>Settu lýsinguna <strong>Upphafsútgáfa vefbókar STÆR3HD05</strong> í
+Summary. Veldu <strong>Commit to main</strong> og síðan <strong>Push
+origin</strong>.</li>
+</ol>
+<p><code>dist/</code> fylgir pakkanum til að eiga tilbúna afritsútgáfu,
+en sést ekki í Changes því <code>.gitignore</code> undanskilur hana. Það
+er rétt: GitHub byggir hana aftur.</p>
+<h3 id="athugaðu-rétta-möppuskipan">Athugaðu rétta möppuskipan</h3>
+<p>Í <strong>Code</strong> á GitHub á <code>build_site.py</code> að
+sjást strax við hlið <code>README.md</code>.
+<code>.github/workflows/pages.yml</code> á að vera undir
+<code>.github</code>, ekki undir annarri <code>staer3hd05</code>
+möppu.</p>
+<h2 id="fyrsta-bygging-engin-birting-enn">5. Fyrsta bygging — engin
+birting enn</h2>
+<ol type="1">
+<li>Opnaðu <strong>Actions</strong> í geymslunni.</li>
+<li>Finndu <strong>Build and publish book</strong> og opnaðu fyrstu
+keyrsluna.</li>
+<li><strong>Build and check</strong> á að verða grænt. Það byggir allar
+síður, athugar tengla og keyrir tölulegar prófanir á völdum
+heildum.</li>
+<li><strong>Publish to GitHub Pages</strong> á að vera merkt
+<strong>Skipped</strong>. Það er viljandi þar til
+<code>PUBLISH_PAGES</code> er virkjuð.</li>
+</ol>
+<p>Ef Actions eru óvirkar samkvæmt reglum skólans þarf stjórnandi að
+heimila notkun opinberu GitHub Actions sem eru tilgreindar í
+YAML-skránni. Enga persónulega aðgangslykla eða geymslu-Secrets þarf
+fyrir þetta vinnuflæði.</p>
+<p><strong>Staða prófana:</strong> Pakkinn hefur verið byggður og
+prófaður í hreinni staðbundinni möppu. Keyrsla á raunverulegum
+GitHub-runner og réttindi reiknings skólans verða staðfest við þetta
+skref.</p>
+<h2 id="virkja-github-pages-þegar-þú-vilt-birta">6. Virkja GitHub Pages
+þegar þú vilt birta</h2>
+<p>Ljúktu fyrst ákvörðun um sýnileika í skrefi 2. GitHub Pages er
+venjulega opin vefsíða; birtingin getur gert alla bókina, vísbendingar
+og lausnir aðgengilegar á netinu.</p>
+<ol type="1">
+<li>Farðu í <strong>Settings → Pages</strong> í geymslunni.</li>
+<li>Undir <strong>Build and deployment → Source</strong> velurðu
+<strong>GitHub Actions</strong>. Ekki velja <strong>Deploy from a
+branch</strong> eða <code>/docs</code>; <code>docs</code> í þessum pakka
+geymir leiðbeiningar, ekki sjálfa bókina.</li>
+<li>Farðu í <strong>Settings → Secrets and variables → Actions →
+Variables</strong>.</li>
+<li>Veldu <strong>New repository variable</strong>.</li>
+<li><strong>Name:</strong> <code>PUBLISH_PAGES</code>.
+<strong>Value:</strong> <code>true</code> (lágstafir, án gæsalappa).
+Þetta er almenn breyta, ekki Secret.</li>
+<li>Farðu í <strong>Actions → Build and publish book → Run
+workflow</strong>. Veldu greinina <strong>main</strong> og keyrðu.</li>
+<li>Nú eiga bæði bygging og birting að verða græn.</li>
+<li>Síðuslóðina finnurðu undir <strong>Settings → Pages → Visit
+site</strong> eða í birtingarverkefninu undir environment
+<strong>github-pages</strong>.</li>
+</ol>
+<p>Venjuleg verkefnaslóð hefur formið
+<code>https://REIKNINGUR.github.io/staer3hd05/</code>. GitHub sýnir
+nákvæma slóð; þú þarft ekki að skrifa eigið reikningsheiti inn í kóða
+bókarinnar. Hýsing er ekki bundin þessu geymsluheiti.</p>
+<p>Engin CNAME-skrá eða eigið lén er sett í pakkann. Ef skólinn vill
+eigið lén má bæta því við síðar.</p>
+<h2 id="prófa-áður-en-nýja-slóðin-verður-aðalslóð">7. Prófa áður en nýja
+slóðin verður aðalslóð</h2>
+<ul>
+<li>Opnaðu forsíðuna og <strong>Hefja lestur</strong>.</li>
+<li>Prófaðu kaflavalmyndina og <strong>Um vefbókina</strong>.</li>
+<li>Athugaðu að formúlurnar séu settar upp; þetta reynir á
+MathJax-safnið frá jsDelivr.</li>
+<li>Opnaðu vísbendingu, frekari vísbendingu og lausn.</li>
+<li>Prófaðu rennistiku í einingu 2 og snúðsmyndir í einingu 8.</li>
+<li>Prófaðu <strong>Næsta síða</strong> og <strong>Til baka</strong>
+yfir einingamörk.</li>
+<li>Skoðaðu síðu í síma eða mjóum vafraramma og skiptu á milli ljósrar
+og dökkrar stillingar.</li>
+<li>Límdu beinan tengil að undirkafla í nýjan flipa og endurhladdu.</li>
+</ul>
+<p>Haltu gömlu vinnuútgáfunni tiltækri þar til þetta er staðfest. Hún
+þarf ekki að vera eytt við flutninginn. Þegar GitHub-útgáfan hefur verið
+samþykkt veljum við hana sem eina aðalvinnuútgáfu og forðumst samhliða
+breytingar á tveimur stöðum.</p>
+<h2 id="breyta-eftir-flutning">8. Breyta eftir flutning</h2>
+<p>Bókin þarf ekki að vera fullbúin. Allur yfirlestur og þróun geta
+haldið áfram.</p>
+<h3 id="safna-athugasemdum">Safna athugasemdum</h3>
+<p>Notaðu <a href="#athugasemdir-vid-yfirlestur">breytingaskrána</a> eða
+eigið skjal. Hafðu með einingu, síðu og dæmanúmer. Þú getur sent mér
+safn breytinga og fengið uppfærðar frumskrár til að setja inn.</p>
+<h3 id="lítil-breyting-í-github-vafranum">Lítil breyting í
+GitHub-vafranum</h3>
+<ol type="1">
+<li>Veldu frumskrá samkvæmt <a href="#efniskort">efniskortinu</a>. Til
+dæmis er <strong>Um vefbókina</strong> í
+<code>assets/about.html</code>.</li>
+<li>Smelltu á blýantinn, breyttu textanum og haltu töggum/táknum
+óbreyttum.</li>
+<li>Veldu <strong>Commit changes</strong> og skrifaðu stutta
+lýsingu.</li>
+<li>Ef þú vilt birta strax má vista á <code>main</code>. Bygging og
+birting keyra sjálfvirkt þegar <code>PUBLISH_PAGES=true</code>.</li>
+<li>Ef þú vilt drög velurðu nýja grein, til dæmis
+<code>yfirlestur-eining-1</code>, og stofnar <strong>Pull
+request</strong>. Athuganir keyra þar en breytingarnar fara ekki á
+aðalvefinn fyrr en þú velur <strong>Merge</strong> yfir í
+<code>main</code>.</li>
+</ol>
+<p>Vafra-Preview á GitHub sýnir ekki sjálfa gagnvirku bókina. Pull
+request fær í þessum pakka athuganir, en ekki sérstaka forskoðunarslóð.
+Til að skoða heila dragaútgáfu fyrir sameiningu þarf að byggja hana
+staðbundið eða setja upp sérstaka forskoðun síðar.</p>
+<h3 id="breyta-með-github-desktop">Breyta með GitHub Desktop</h3>
+<p>Veldu <strong>Fetch origin / Pull origin</strong> áður en þú byrjar,
+breyttu frumskrám á tölvunni, skoðaðu Changes, veldu Commit og Push.
+Frumskrárnar eru að hluta Python með HTML-texta; lestu efniskortið. Ekki
+gera handvirkar breytingar eingöngu í <code>dist/</code>.</p>
+<h2 id="ef-þú-vilt-bakka">9. Ef þú vilt bakka</h2>
+<ul>
+<li><strong>Afturkalla nýlega breytingu:</strong> í GitHub Desktop,
+farðu í <strong>History</strong>, hægrismelltu á viðkomandi commit og
+veldu <strong>Revert changes in commit</strong>. Ýttu nýja
+afturköllunarcommitinu með Push. Notaðu ekki eyðingu geymslu eða
+force-push til að laga orðalag.</li>
+<li><strong>Stöðva nýjar sjálfvirkar birtingar:</strong> breyttu
+<code>PUBLISH_PAGES</code> í <code>false</code>. Núverandi birt útgáfa
+stendur áfram; þetta tekur hana ekki af netinu.</li>
+<li><strong>Taka Pages-vefinn af netinu:</strong> það er sérstök aðgerð
+í Pages-stillingum, ekki það sama og að stöðva sjálfvirkni.</li>
+</ul>
+<h2 id="algengar-hnökrar">10. Algengar hnökrar</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vandamál</th>
+<th>Hvað á að skoða</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ekkert birtist undir Actions</td>
+<td>Er <code>.github/workflows/pages.yml</code> á réttum stað á
+<code>main</code>? Eru Actions heimilaðar?</td>
+</tr>
+<tr class="even">
+<td>Build grænt, Publish skipped</td>
+<td>Er <code>PUBLISH_PAGES</code> repository <strong>Variable</strong>
+nákvæmlega <code>true</code>? Er keyrslan frá <code>main</code>, ekki
+pull request?</td>
+</tr>
+<tr class="odd">
+<td>Pages er ekki í boði</td>
+<td>Athugaðu réttindi, áskrift og sýnileika geymslu. Ekki opna frumskrár
+án þess að það sé ætlunin.</td>
+</tr>
+<tr class="even">
+<td>403 eða vantar Pages-réttindi við birtingu</td>
+<td>Source á að vera GitHub Actions. Stjórnandi getur þurft að yfirfara
+Actions- og environment-reglur skólans.</td>
+</tr>
+<tr class="odd">
+<td>Bygging stöðvast eftir textabreytingu</td>
+<td>Opnaðu rauða Build-skrefið. Athugaðu gæsalappir og hvort textafesta
+í <code>editorial_review.py</code> hafi breyst.</td>
+</tr>
+<tr class="even">
+<td>Vefur sýnir gamla textann</td>
+<td>Athugaðu síðustu grænu birtingu og endurhladdu vafra. Röng frumskrá
+eða breyting í <code>dist/</code> getur verið orsökin.</td>
+</tr>
+<tr class="odd">
+<td>Vefsíðan sýnir bara README eða leiðbeiningar</td>
+<td>Röng Pages Source eða möppuskipan. Notaðu GitHub Actions sem birtir
+<code>dist</code>, ekki <code>/docs</code>.</td>
+</tr>
+<tr class="even">
+<td>Formúlur birtast sem kóði</td>
+<td>Prófaðu nettengingu og hvort jsDelivr sé aðgengilegt á neti skólans.
+Bókin notar MathJax þaðan.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stutt-yfirlit-yfir-það-sem-þú-gerir">Stutt yfirlit yfir það sem
+þú gerir</h2>
+<ol type="1">
+<li>Stofnar geymsluna hjá skólanum og flytur inn innihald pakkans.</li>
+<li>Staðfestir græna byggingu.</li>
+<li>Ákveður sýnileika og virkjar Pages þegar þú ert tilbúin.</li>
+<li>Prófar bókina á nýju slóðinni.</li>
+<li>Heldur áfram yfirlestri og breytingum í sömu geymslu.</li>
+</ol>
+<h2 id="opinberar-heimildir">Opinberar heimildir</h2>
+<p>Leiðbeiningar og vinnuflæði miða við opinber gögn GitHub, skoðuð 5.
+nóvember 2026:</p>
+<ul>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub
+Pages: hvað þjónustan gerir og áskriftir</a></li>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">Val
+á birtingaruppsprettu</a></li>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">Sérsniðin
+GitHub Actions-vinnuflæði fyrir Pages</a></li>
+<li><a href="https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site">Sýnileiki
+Pages-vefs og Enterprise-aðgangsstýring</a></li>
+<li><a href="https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop">Klónun
+með GitHub Desktop</a></li>
+<li><a href="https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files">Breyta
+skrám í vafra</a></li>
+</ul>
+<h1 id="efniskort">Efniskort og ritstjórn</h1>
+<h2 id="mikilvægasta-aðgreiningin">Mikilvægasta aðgreiningin</h2>
+<p><strong>Það sem sést í vafra er í <code>dist/</code>. Frumtextinn er
+í Python-skrám og <code>assets/</code>.</strong> GitHub Actions
+endurskapar vefsíðuna úr þeim frumskrám. Breyting eingöngu á útbúinni
+HTML-síðu endist ekki við næstu byggingu.</p>
+<p>Þetta er núverandi höfundakerfi bókarinnar, ekki Markdown-bók eða
+Sphinx/Edbook. Ekki þarf að endurskrifa hana í öðru kerfi til að hýsa
+hana á GitHub.</p>
+<h2 id="hvar-er-efnið">Hvar er efnið?</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Birt eining / hluti</th>
+<th>Helstu frumskrár</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Forsíða og stuttir kynningartextar</td>
+<td><code>frontpage.py</code></td>
+</tr>
+<tr class="even">
+<td>Um vefbókina</td>
+<td><code>assets/about.html</code></td>
+</tr>
+<tr class="odd">
+<td>Haus, meginútlit og grunnur einingar 1</td>
+<td><code>build.py</code>, <code>build_book.py</code>,
+<code>frontpage.py</code></td>
+</tr>
+<tr class="even">
+<td>1. Stofnföll og óákveðin heildi</td>
+<td><code>build.py</code></td>
+</tr>
+<tr class="odd">
+<td>2. Ákveðið heildi og uppsöfnun</td>
+<td><code>unit_content.py</code>, <code>units[2]</code></td>
+</tr>
+<tr class="even">
+<td>3. Flatarmál og hagnýting heilda</td>
+<td><code>units78.py</code>, höfundareining 7</td>
+</tr>
+<tr class="odd">
+<td>4. Heildun með innsetningu</td>
+<td><code>unit3.py</code> (grunnur í <code>unit_content.py</code>)</td>
+</tr>
+<tr class="even">
+<td>5. Hlutheildun</td>
+<td><code>unit4.py</code> (grunnur í <code>unit_content.py</code>)</td>
+</tr>
+<tr class="odd">
+<td>6. Ræð föll og stofnbrot</td>
+<td><code>unit5.py</code> (grunnur í <code>unit_content.py</code>)</td>
+</tr>
+<tr class="even">
+<td>7. Að velja heildunaraðferð</td>
+<td><code>unit6.py</code> (grunnur í <code>unit_content.py</code>)</td>
+</tr>
+<tr class="odd">
+<td>8. Rúmmál snúða</td>
+<td><code>units78.py</code>, <code>solid_widgets.py</code>,
+<code>assets/cone.html</code></td>
+</tr>
+<tr class="even">
+<td>9. Deildajöfnur og upphafsskilyrði</td>
+<td><code>unit9.py</code></td>
+</tr>
+<tr class="odd">
+<td>10. Óhliðraðar deildajöfnur</td>
+<td><code>unit10.py</code></td>
+</tr>
+<tr class="even">
+<td>11. Hliðraðar deildajöfnur</td>
+<td><code>unit11.py</code></td>
+</tr>
+<tr class="odd">
+<td>12. Aðskiljanlegar deildajöfnur</td>
+<td><code>unit12.py</code></td>
+</tr>
+<tr class="even">
+<td>13–15. Runur, raðir og þrepun</td>
+<td><code>units1315.py</code></td>
+</tr>
+<tr class="odd">
+<td>Ritstjórnarviðbætur við sýnidæmi og skýringar</td>
+<td><code>editorial_review.py</code>, númerað eftir
+<strong>birtum</strong> einingum</td>
+</tr>
+<tr class="even">
+<td>Endurnúmerun og röð eininga 2–8</td>
+<td><code>book_order.py</code></td>
+</tr>
+<tr class="odd">
+<td>Vinstri valmynd og samsetning allra síðna</td>
+<td><code>build_book.py</code></td>
+</tr>
+<tr class="even">
+<td>Forsíðuútlit og ME-merki í haus</td>
+<td><code>assets/frontpage.css</code>,
+<code>assets/me-logo.png</code></td>
+</tr>
+<tr class="odd">
+<td>Valmynd á mjóum skjám</td>
+<td><code>assets/navigation.css</code>,
+<code>assets/navigation.js</code></td>
+</tr>
+<tr class="even">
+<td>Gagnvirk gröf og myndir</td>
+<td>JavaScript-skrár í <code>assets/</code>; sumar athafnir einnig í
+<code>build.py</code> og <code>build_book.py</code></td>
+</tr>
+<tr class="odd">
+<td>Síðufótur</td>
+<td><code>book_footer.py</code> — <code>ENABLED = False</code>, eins og
+samþykkt var</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hvers-vegna-samsvara-skráarnöfnin-ekki-alltaf-kaflanúmerunum">Hvers
+vegna samsvara skráarnöfnin ekki alltaf kaflanúmerunum?</h2>
+<p>Flatarmálsefnið var fært framar í bókina. Til að varðveita efnið var
+endurnúmerun sett í <code>book_order.py</code>. Birt eining 4 kemur því
+úr höfundareiningu 3, birt 5 úr 4, birt 6 úr 5 og birt 7 úr 6. Flatarmál
+er höfundareining 7 en birt eining 3. Breyttu ekki þessum númerum
+sjálfvirkt í öllum skrám.</p>
+<h2 id="örugg-byrjun-á-orðalagsbreytingu">Örugg byrjun á
+orðalagsbreytingu</h2>
+<ol type="1">
+<li>Skráðu síðuna, dæmanúmerið og nákvæma textann sem á að breyta.</li>
+<li>Leitaðu að textanum í geymslunni. Skoðaðu hvort hann er í
+<code>editorial_review.py</code> eða í grunnskránni.</li>
+<li>Breyttu aðeins textanum. Haltu Python-gæsalöppum, HTML-tögum og
+stærðfræðitáknum óbreyttum nema ætlunin sé sérstaklega að breyta
+þeim.</li>
+<li>Láttu byggingu og athuganir ljúka. Ef ritstjórnarstaðfesting
+(<code>AssertionError</code> með einingar- og síðunúmeri) bregst þarf að
+samræma grunntexta og ritstjórnarlag; ekki eyða staðfestingunni til að
+fela villuna.</li>
+<li>Skoðaðu sjálfa síðuna í vafra, ekki aðeins græna niðurstöðu
+athugunar.</li>
+</ol>
+<p>Auðveldasta skráin til að prófa fyrstu breytingu er
+<code>assets/about.html</code>. Texti er þar venjulegt HTML. Til dæmis
+má breyta orðalagi innan <code>&lt;p&gt;…&lt;/p&gt;</code> án þess að
+breyta töggunum.</p>
+<p>Við stærri yfirferð getum við unnið úr breytingalistanum saman og
+skilað uppfærðum frumskrám. Þegar GitHub verður aðalvinnustaðurinn þarf
+alltaf að byrja á nýjustu útgáfu þaðan, svo nýlegum breytingum sé ekki
+skrifað yfir.</p>
+<h1 id="athugasemdir-vid-yfirlestur">Athugasemdir við yfirlestur</h1>
+<p>Settu eina breytingu í hverja línu. Dæmanúmer og núverandi orðalag
+gera auðveldara að finna réttan stað. Vefslóð má vera afrit af síðunni
+sem þú ert að lesa.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Eining / síða</th>
+<th>Dæmi eða fyrirsögn</th>
+<th>Núverandi texti / vandamál</th>
+<th>Tillaga eða ósk</th>
+<th>Staða</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Óunnið</td>
+</tr>
+</tbody>
+</table>
+<p>Mögulegar stöður: <strong>Óunnið</strong>, <strong>Í
+vinnslu</strong>, <strong>Til yfirlestrar</strong>,
+<strong>Samþykkt</strong>.</p>
+<p>Gott er að greina á milli orðalags, stærðfræði, skýringa,
+myndar/gagnvirkni og útlits. Ekki þarf að flokka allt áður en athugasemd
+er skráð.</p>
+</body>
+</html>

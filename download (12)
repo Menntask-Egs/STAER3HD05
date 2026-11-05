@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.openai/
+# Rebuilt automatically by GitHub Actions. Included in the handoff ZIP as a snapshot.
+dist/
