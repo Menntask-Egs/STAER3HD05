@@ -19,7 +19,10 @@ more=[
 ('1/(x**2-3*x+2)','-log(abs(x-1))+log(abs(x-2))'),
 ('log(x)','x*log(x)-x'),
 ('x**2*exp(x)','exp(x)*(x**2-2*x+2)'),
-('(x+1)/(x-1)**2','log(abs(x-1))-2/(x-1)')]
+('(x+1)/(x-1)**2','log(abs(x-1))-2/(x-1)'),
+('6*x','3*x**2'),
+('(3*x+4)/((x+1)*(x+2))','log(abs(x+1))+2*log(abs(x+2))'),
+('2*x*(x*x+1)**2','(x*x+1)**3/3')]
 for f,F in checks+more:
  for x in [.3,.8,1.4,2.2]:
   a=value(f,x);b=derivative(F,x)
@@ -29,6 +32,18 @@ def integ(f,a,b):
  n=10000;h=(b-a)/n
  return h/3*(value(f,a)+value(f,b)+sum((4 if i%2 else 2)*value(f,a+i*h) for i in range(1,n)))
 definite=[('3*x**2-2',-1,2,3),('sin(x)',0,math.pi,2),('6-2*x',0,2,8),('x-3',0,2,-4),('1/x',2,1,-math.log(2)),('exp(x)+2*x',0,1,math.e),('x*(x**2+1)**2',0,2,62/3),('sin(x)*cos(x)',0,math.pi/2,.5),('3*x**2*(x**3+1)**2',0,1,7/3),('x*exp(x)',0,1,1),('log(x)',1,math.e,1),('x*cos(x)',0,1,math.sin(1)+math.cos(1)-1),('x**2*exp(x)',0,1,math.e-2),('1/(x*(x-1))',2,3,math.log(4/3)),('2*x/(x*x+1)',0,1,math.log(2)),('x*sin(x)',0,math.pi,math.pi)]
+definite.extend([
+ ('abs(x*x-x)',-1,2,11/6),
+ ('abs(x*x-2*x)',-1,3,4),
+ ('abs(2*x)',-2,1,5),
+ ('x+2',-1,1,4),
+ ('2*x-1',0,2,2),
+ ('2*x-4',0,3,-3),
+ ('abs(2*x-4)',0,3,5),
+ ('2*x',3,-1,-8),
+ ('x*x',1,2,7/3),
+ ('x*x',0,1,1/3),
+])
 for f,a,b,want in definite:
  got=integ(f,a,b);assert math.isclose(got,want,rel_tol=1e-7,abs_tol=1e-7),(f,got,want)
 print(f'{len(checks+more)} stofnföll prófuð með tölulegri diffrun á fjórum stöðum; {len(definite)} ákveðin heildi prófuð tölulega.')
